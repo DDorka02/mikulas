@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{background-image: url(mikulas/mikulas/kepek/hatter.jpg);
+}
+
+main{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 230);
+}
+nav{background-color: red;
+    height: 50px;}
+
+
+nav li{
+    color: white;
+    list-style:none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+header{color:red;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 60px ;
+    background-image: url(mikulas/mikulas/kepek/fejlec.jpg);
+height: 500px;
+background-size: cover;
+font-size: 32px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+article{
+    font-size: 15px;
+    color: #ff1a1a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-size: 15px;
+}
+.kep{
+    float: left;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+th{
+    text-align: center;
+    border: 1px solid gray;
+}
+
+td{
+    text-align: center;
+    border: 1px solid gray;
+}
+
+table{border-collapse:collapse;}
+
+.Masodik{background-color: gray;}
