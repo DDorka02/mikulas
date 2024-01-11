@@ -19,14 +19,12 @@ nav{background-color: red;
 nav li{
     color: white;
     list-style:none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   
 }
 
 nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 nav a{
     text-decoration: none;
@@ -97,6 +95,9 @@ aside{
   grid-area: as;
 }
 
+img{
+    width: 100%;}
+    
 main {
     display:grid;
     grid-gap: 10px;   
