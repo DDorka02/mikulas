@@ -12,7 +12,8 @@ main{
     background-color: rgb(255, 255, 230);
 }
 nav{background-color: red;
-    height: 50px;}
+    height: 50px;
+    border: 1px solid white;}
 
 
 nav li{
@@ -23,16 +24,30 @@ nav li{
    
 }
 
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+nav a{
+    text-decoration: none;
+    color: white;}
+    
+nav li:hover {
+    background-color:green;
+}
+nav a:hover{
+    background-color: green;
+}
 header{color:red;
     text-align: center;
     font-family: cursive;
     margin-top: 60px ;
     background-image: url(mikulas/mikulas/kepek/fejlec.jpg);
-height: 500px;
+height: 550px;
 background-size: cover;
 font-size: 32px;
-margin-top: 30px;
-margin-bottom: 30px;
+margin-top: 60px;
+margin-bottom: 60px;
 
 }
 
@@ -67,3 +82,27 @@ td{
 table{border-collapse:collapse;}
 
 .Masodik{background-color: gray;}
+
+
+header {
+    grid-area:h;
+}
+nav {
+    grid-area:n;
+}
+article {
+    grid-area:ar;
+}
+aside{
+  grid-area: as;
+}
+
+main {
+    display:grid;
+    grid-gap: 10px;   
+    grid-template-areas:"h h"
+                        "n n"
+                        "as ar"
+                        "as ar"
+                        "f f";
+}
